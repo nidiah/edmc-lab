@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_simplePrint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Descripción de Buenos Aires</title>
+        </titleStmt>
+        <publicationStmt>
+           <p/>
+        </publicationStmt>
+        <sourceDesc>
+           <p/>
+        </sourceDesc>
+     </fileDesc>
+ </teiHeader>
+ <text>
+   <body>
+   <pb/>
+   <head>Descripción de Buenos Aires</head>
+     <div>
+         <p>Antes de <choice><corr>decir</corr><sic>desir</sic></choice> nada de mi viaje al <name type="country" ref="http://viaf.org/viaf/159434034">Perú</name>, anotaré lo que 
+               <lb/>observé de remarcable en <name type="place" ref="http://viaf.org/viaf/1331145424662786830473">Buenos Aires</name> mientras permanecí 
+               <lb/>allí. El aire es bastante templado, muy semejante al de 
+               <lb/><name type="place" ref="http://viaf.org/viaf/147299881"><corr>Andalucía</corr></name>, pero no tan caliente: las lluvias caen casi con 
+               <lb/>tanta frecuencia en el verano como en invierno<ref xml:id="r7" target="#n7">7</ref>; y la lluvia 
+               <lb/>en los tiempos de bochorno, <corr>frecuentemente</corr> produce diver<lb/>sas clases de sapos, que son muy comunes en estos pa<reg>í</reg>ses,
+         </p>
+         <p>Otro párrafo</p>
+         <p>Otro párrafo</p>
+         <p>Otro párrafo</p>
+         <p>Otro párrafo</p>
+         <p>Otro párrafo</p>
+         <note xml:id="n7" target="#r7" place="end">Una nota al pie.</note>
+     </div>
+     </body>
+ </text>
+</TEI>
